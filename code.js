@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
                 else{
                     input.style.border = "1px solid var(--Grayish-Blue)";
-                    input.style.color = "--Grayish-Blue";
+                    input.style.color = "var(--Grayish-Blue)";
                     validationMessage.style.display = "none";
                     errorIcon.style.display = "none";
                 }
@@ -41,7 +41,6 @@ document.addEventListener("DOMContentLoaded", function() {
             }
             else {
                 input.style.border = "1px solid var(--Grayish-Blue)";
-                input.style.color = "--Grayish-Blue";
                 validationMessage.style.display = "none";
                 errorIcon.style.display = "none";
             }
