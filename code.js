@@ -20,12 +20,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
                     event.preventDefault();
                     input.style.border = "1px solid var(--Red)";
+                    input.style.color = "var(--Red)";
                     validationMessage.textContent = "Looks like this is not an email";
                     validationMessage.style.display = "block";
                     errorIcon.style.display = "block";
                 }
                 else{
                     input.style.border = "1px solid var(--Grayish-Blue)";
+                    input.style.color = "--Grayish-Blue";
                     validationMessage.style.display = "none";
                     errorIcon.style.display = "none";
                 }
@@ -39,6 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
             }
             else {
                 input.style.border = "1px solid var(--Grayish-Blue)";
+                input.style.color = "--Grayish-Blue";
                 validationMessage.style.display = "none";
                 errorIcon.style.display = "none";
             }
