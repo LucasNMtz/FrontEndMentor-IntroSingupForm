@@ -138,6 +138,12 @@ input{
     padding-right: 40px;
 }
 
+input:focus{
+    font-weight: 700;
+    color: var(--Dark-Blue);
+    border-color: var(--Dark-Blue);
+}
+
 form{
     display: flex;
     flex-direction: column;
